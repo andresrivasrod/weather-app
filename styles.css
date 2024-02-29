@@ -57,9 +57,27 @@ body {
   outline: none;
   padding: 12px 24px;
   border-radius: 0px 6px 6px 0px;
-  background: #718096;
+  background: #111176;
   color: #ffffff;
   cursor: pointer;
+}
+
+.select-temp{
+    background-color: #ffffff;
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+#tempUnit{
+    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
+    margin-left: 8px;
+    border: 2px solid;
 }
 
 .results-box {
