@@ -132,6 +132,6 @@ body {
 /*Phone */
 @media (max-width: 600px) {
     .select-temp {
-        width: 70%;
+        width: 90%;
     }
 }
