@@ -9,7 +9,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background: #109090;
+  background: #36d6f3;
 }
 
 .main-title {
@@ -23,10 +23,10 @@ body {
 
 .main-subtitle {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 150%;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 32px;
 }
 
