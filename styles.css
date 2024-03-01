@@ -128,3 +128,10 @@ body {
     width: 440px;
   }
 }
+
+/*Phone */
+@media (max-width: 600px) {
+    .select-temp {
+        width: 70%;
+    }
+}
