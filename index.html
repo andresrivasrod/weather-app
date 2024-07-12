@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./styles.css" />
     <title>Weather app</title>
-  </head>
-  <body>
+</head>
+<body>
     <h1 class="main-title" id="mainTitle">Weather app</h1>
 
     <p class="main-subtitle">
-      Search a location and check how the weather looks like over there!
+        Search a location and check how the weather looks like over there!
     </p>
 
     <div id="r">
-      <section class="search-box">
-        <input
-          type="text"
-          class="search-field"
-          placeholder="Eg. London"
-          id="mainInput"
-        />
-        <button type="button" class="search-button" id="searchButton">
-          Search
-        </button>
-      </section>
-      <div class="select-temp">
-        <label for="tempUnit">Select Temperature Unit:</label>
-        <select id="tempUnit">
-        <option value="metric">Celsius</option>
-        <option value="imperial">Fahrenheit</option>
-        <option value="standard">Kelvin</option>
-        </select>
-      </div>
-      
-      <div id="results">
-        
-      </div>
+        <section class="search-box">
+            <input
+                type="text"
+                class="search-field"
+                placeholder="Eg. London"
+                id="mainInput"
+                list="cities"
+            />
+            <datalist id="cities"></datalist>
+            <button type="button" class="search-button" id="searchButton">
+                Search
+            </button>
+        </section>
+        <div class="select-temp">
+            <label for="tempUnit">Select Temperature Unit:</label>
+            <select id="tempUnit">
+                <option value="metric">Celsius</option>
+                <option value="imperial">Fahrenheit</option>
+                <option value="standard">Kelvin</option>
+            </select>
+        </div>
 
+        <div id="results"></div>
     </div>
 
     <script src="./script.js"></script>
-  </body>
+</body>
 </html>
